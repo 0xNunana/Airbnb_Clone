@@ -38,7 +38,7 @@ const range =`${formatStartDate} - ${formatEndDate}`
    </div>
 </section>
 <section className='hidden xl:inline-flex xl:min-w-[600px]'>
-    <Mapper/>
+    <Mapper searchResults={searchResults}/>
 </section>
 </main>
     <Footer/>
